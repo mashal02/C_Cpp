@@ -7,11 +7,11 @@ int main()
 	cout << "\t\t\t\tColors\n";
 	for (i = 30; i < 47; i++)
 	{
-		printf("\n\x1b[%dm   Code: xlb:%dm", i,i);
+		printf("\n\x1b[%dm   Code: x1b[%dm", i,i);
 	}
 	for (i = 90; i < 106; i++)
 	{
-		printf("\n\x1b[%dm   Code: xlb:%dm", i, i);
+		printf("\n\x1b[%dm   Code: x1b[%dm", i, i);
 	}
 	int j = 0;
 	for (i = 0; i < 100; i++)
@@ -21,25 +21,25 @@ int main()
 		{
 			continue;
 		}
-			printf("\n\x1b[%d;%dm   Code: xlb:%d;%dm", i,j, i,j);
+			printf("\n\x1b[%d;%dm   Code: x1b[%d;%dm", i,j, i,j);
 		}
 	}
-		printf("\n\x7b");
-		printf("\n\x8b");
-		printf("\n\x9b");
-		printf("\n\x1");
-		printf("\n\x2");
-		printf("\n\x3");
-		printf("\n\x4");
-		printf("\n\x5");
-		printf("\n\x6");
-		printf("\n\x7");
-	
-		printf("\n\x10 10"); printf("\n\x11 11");
-		printf("\n\x12 12"); printf("\n\x13 13"); 
-		printf("\n\x14 14");
-		printf("\n\x14 15");
-		printf("\n\x14 16");
-		printf("\n\x14 17");
-		printf("\n\u1F604");
+	//EMOJIS
+		printf("\n\x7b x7b");
+		printf("\n\x8b x8b");
+		printf("\n\x9b x9b");
+		printf("\n\x1 x1");
+		printf("\n\x2 x2");
+		printf("\n\x3 x3");
+		printf("\n\x4 x4");
+		printf("\n\x5 x5");
+		printf("\n\x6 x6");
+		printf("\n\x7 x7");
+		printf("\n\x10 x10"); printf("\n\x11 x11");
+		printf("\n\x12 x12"); printf("\n\x13 x13"); 
+		printf("\n\x14 x14");
+		printf("\n\x15 x15");
+		printf("\n\x16 x16");
+		printf("\n\x17 x17");
+		
 }
